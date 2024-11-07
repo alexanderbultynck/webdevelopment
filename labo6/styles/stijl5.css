@@ -1,0 +1,13 @@
+.checklist {
+    list-style-type: none;
+    padding: 0;
+}
+.checklist li {
+    padding-left: 25px;
+    position: relative;
+}
+.checklist li i {
+    position: absolute;
+    left: 0;
+    top: 0;
+}

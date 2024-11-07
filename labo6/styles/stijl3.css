@@ -1,0 +1,17 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;
+    background-color: silver;
+    color: darkblue;
+}
+h1{
+    font-variant: all-small-caps;
+    background-color: red;
+}
+a:hover{
+    background-color: yellow;
+}
+.stippeltjesrand{
+    border-width: 1px;
+    border-style: dotted;
+}
