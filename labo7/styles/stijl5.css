@@ -1,0 +1,19 @@
+table {
+    margin: auto;
+}
+.vorige_maand, .volgende_maand {
+    background-color: gray !important;
+}
+td:first-child, td:last-child {
+    background-color: rgb(255, 220, 220);
+}
+.vrije_dag {
+    background-color: rgb(250, 120, 120);
+}
+.maand {
+    background-color: rgb(170, 170, 200);
+}
+.dag {
+    color: rgb(200, 190, 240);
+    background-color: rgb(35, 37, 70);
+}

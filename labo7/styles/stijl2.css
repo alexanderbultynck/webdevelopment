@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+    width: 95%;
+    margin: auto;
+}
+section{
+    background-color: lightgray;
+    padding: 8px;
+    margin: 5px;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+li{
+    margin-top: 10px;
+}
