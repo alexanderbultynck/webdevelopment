@@ -1,0 +1,10 @@
+.kolom_1, .kolom_2 {
+    border: 1px solid;
+    padding: 10px;
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+    left: 0;
+    right: 0;
+}

@@ -1,0 +1,52 @@
+body {
+    width: 95%;
+    margin: auto;
+    font-family: Verdana, Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+}
+header p, .rechts{
+    text-align: center;
+}
+.rechts {
+    width: 25%;
+    float: right;
+    border-style: solid;
+    border-color: green;
+    padding: 25px;
+}
+.links {
+    width: 70%;
+}
+#guarantee {
+    margin: 30px;
+    padding: 20px;
+    color: #444444;
+    background-color: #a7cece;
+    border: dotted white;
+}
+h1, h2 {
+    color: #007e7e;
+}
+h1 {
+    font-size: 150%;
+}
+h2 {
+    font-size: 130%;
+}
+.rechts h1 {
+    color: black;
+}
+.rechts h2 {
+    color: red;
+}
+.rechts a:hover {
+    background-color: brown;
+}
+a {
+    color: black;
+}
+footer {
+    text-align: center;
+    margin-top: auto;
+    padding: 235px;
+}
