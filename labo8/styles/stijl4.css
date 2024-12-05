@@ -18,11 +18,27 @@ header p, .rechts{
     width: 70%;
 }
 #guarantee {
-    margin: 30px;
-    padding: 20px;
-    color: #444444;
     background-color: #a7cece;
-    border: dotted white;
+    color: #444444;
+    padding: 20px 20px 20px 60px;
+    margin: 30px;
+    border: 2px dotted white;
+    text-align: left;
+    width: 90%;
+    position: relative;
+}
+
+#guarantee img {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    height: auto;
+}
+
+#guarantee a {
+    color: black;
+    text-decoration: underline;
 }
 h1, h2 {
     color: #007e7e;
