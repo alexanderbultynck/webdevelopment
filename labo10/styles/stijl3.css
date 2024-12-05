@@ -1,0 +1,52 @@
+.block{
+    border: solid black 1px;
+}
+
+.block-red {
+    background-color: rgb(240,40,26);
+    height: 355px;
+    border-width: 0 0 7.5px 7.5px;
+}
+.block-blue {
+    background-color: rgb(0, 93, 159);
+    height: 150px;
+    border-width: 7.5px 7.5px 0 0;
+}
+.block-yellow {
+    background-color: rgb(242, 224, 122);
+    height: 75px;
+    border-width: 12.5px 0 0 7.5px;
+}
+.block-white {
+    background-color: rgb(255, 255, 255);
+}
+
+.links{
+    height: 165px;
+    border-width: 0 7.5px 15px 0;
+}
+
+.links2{
+    height: 190px;
+    position: absolute;
+    top: 165px;
+    left: 72px;
+    border-width: 15px 7.5px 7.5px 0;
+}
+
+.midden{
+    height: 150px;
+    border-width: 7.5px 7.5px 0 7.5px;
+}
+
+.rechts{
+    height: 75px;
+    border-width: 7.5px 0 12.5px 7.5px;
+}
+.rechts2{
+    height: 75px;
+    position: absolute;
+    right: 92px;
+    bottom: 225px;
+    border-width: 12.5px 0 0 7.5px;
+}
