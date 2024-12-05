@@ -1,10 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/stijl5.css">
+    <title>Personal Homepage</title>
 </head>
+
 <body>
 
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Alexander's Homepage</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link active" href="#personal-info">About Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="#hobbies">Hobbies</a></li>
+                <li class="nav-item"><a class="nav-link" href="#likes">Likes</a></li>
+                <li class="nav-item"><a class="nav-link" href="#friends">Friends</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section id="personal-info" class="py-5 bg-light">
+    <div class="container">
+        <h1 class="text-center mb-4">About Me</h1>
+        <div class="row align-items-center">
+            <div class="col-md-4 text-center">
+                <img class="img-thumbnail rounded-circle" src="../../images/20240628_120546.jpg" alt="Mezelf" width="200">
+            </div>
+            <div class="col-md-8">
+                <p><strong>Full name:</strong> Alexander Bultynck</p>
+                <p><strong>Address:</strong> Molenstraat 12, 8582 Outrijve</p>
+                <p><strong>Phone:</strong> +32 472 48 72 64</p>
+                <p><strong>Email:</strong> <a href="mailto:alexanderbultynck@gmail.com">alexanderbultynck@gmail.com</a></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="hobbies" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Hobbies</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../../images/2.jpg" class="card-img-top" alt="Listening to Music">
+                    <div class="card-body">
+                        <h5 class="card-title">Listening to Music</h5>
+                        <p class="card-text">I enjoy EDM music.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../../images/3.jpg" class="card-img-top" alt="Reading Books">
+                    <div class="card-body">
+                        <h5 class="card-title">Reading Books</h5>
+                        <p class="card-text">I love thrillers when I find time to read.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../../images/4.jpg" class="card-img-top" alt="Playing Games">
+                    <div class="card-body">
+                        <h5 class="card-title">Playing Games</h5>
+                        <p class="card-text">Gaming is a great way to relax and have fun.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="likes" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-4">Things I Love</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../../images/coldplay.png" class="card-img-top" alt="Coldplay">
+                    <div class="card-body">
+                        <h5 class="card-title">Favourite Band</h5>
+                        <p class="card-text">Coldplay is my favorite band.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../../images/David_Guetta.jpg" class="card-img-top" alt="David Guetta">
+                    <div class="card-body">
+                        <h5 class="card-title">Favourite Music</h5>
+                        <p class="card-text">I love EDM, especially David Guetta's tracks.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="../../images/Interstellar.jpg" class="card-img-top" alt="Interstellar">
+                    <div class="card-body">
+                        <h5 class="card-title">Favourite Movie</h5>
+                        <p class="card-text">Interstellar is a masterpiece of sci-fi cinema.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="friends" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">My Friends</h2>
+        <div class="table-responsive">
+            <table class="table table-striped table-hover">
+                <thead class="table-primary">
+                <tr>
+                    <th>Name</th>
+                    <th>Last Name</th>
+                    <th>Birth Date</th>
+                    <th>Address</th>
+                    <th>School</th>
+                    <th>Study</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>Daan</td>
+                    <td>Claes</td>
+                    <td>06-01-2005</td>
+                    <td>Bredeweg 88, 9000 Gent</td>
+                    <td>Stedelijk Lyceum</td>
+                    <td>Economie-Moderne Talen</td>
+                </tr>
+                <tr>
+                    <td>Timo</td>
+                    <td>De Smet</td>
+                    <td>23-06-2006</td>
+                    <td>Lindenstraat 14, 2500 Lier</td>
+                    <td>Heilig-Hartinstituut Lier</td>
+                    <td>Wetenschappen Wiskunde</td>
+                </tr>
+                <tr>
+                    <td>Noah</td>
+                    <td>Vandenbroucke</td>
+                    <td>04-10-2005</td>
+                    <td>Eikenlaan 21, 3020 Herent</td>
+                    <td>Heilige Familie School Herent</td>
+                    <td>Sportwetenschappen</td>
+                </tr>
+                <tr>
+                    <td>Jasper</td>
+                    <td>Peeters</td>
+                    <td>11-03-2006</td>
+                    <td>Bosstraat 59, 8200 Brugge</td>
+                    <td>VTI Brugge</td>
+                    <td>Bouwkunde</td>
+                </tr>
+                <tr>
+                    <td>Louis</td>
+                    <td>Janssens</td>
+                    <td>30-04-2005</td>
+                    <td>Dorpstraat 74, 3400 Landen</td>
+                    <td>Koninklijk Atheneum Landen</td>
+                    <td>Kunstacademie</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFlnJ8BhQxuynHhxldJgJ6ch9eQgjpjs8hb8gHE00bCU5K0FYIPrs3SLxg"
+        crossorigin="anonymous"></script>
 </body>
 </html>
