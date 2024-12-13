@@ -1,0 +1,91 @@
+.container {
+    display: grid;
+    gap: 5px;
+}
+
+.block {
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+}
+.block1 {
+    background-color: #c0392b;
+}
+.block2 {
+    background-color: #8e44ad;
+}
+.block3 {
+    background-color: #2980b9;
+}
+.block4 {
+    background-color: #1abc9c;
+}
+
+@media (min-width: 320px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+    .block1 {
+        order: 2;
+    }
+    .block2 {
+        order: 1;
+    }
+    .block3 {
+        order: 3;
+    }
+    .block4 {
+        order: 4;
+    }
+}
+
+@media (min-width: 772px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+    .block1 {
+        order: 1;
+    }
+    .block3 {
+        order: 2;
+    }
+    .block2 {
+        order: 3;
+    }
+    .block4 {
+        order: 4;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, auto);
+    }
+    .block1 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    .block2 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    .block3 {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    .block4 {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+}
