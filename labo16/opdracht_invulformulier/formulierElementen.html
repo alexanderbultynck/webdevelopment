@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Formulierelementen</title>
+</head>
+<body>
+<form>
+    <div>
+        <p>Personal information</p>
+        <label>First name*:
+            <input type="text" required autofocus placeholder="Your first name">
+        </label><br>
+        <label>Last name*:
+            <input type="text" required placeholder="Your last name">
+        </label>
+    </div>
+    <div>
+        <p>Sports</p>
+        <p>Which sport do you train?</p>
+        <label>
+            <input type="checkbox" name="sport" value="running">Running
+        </label><br>
+        <label>
+            <input type="checkbox" name="sport" value="swimming">Swimming
+        </label><br>
+        <label>
+            <input type="checkbox" name="sport" value="rowing">Rowing
+        </label>
+    </div>
+    <div>
+        <p>Gender</p>
+        <label>
+            <input type="radio" name="gender" value="male">Male
+        </label><br>
+        <label>
+            <input type="radio" name="gender" value="female">Female
+        </label><br>
+        <label>
+            <input type="radio" name="gender" value="other/prefer not to say">Other/Prefer not to say
+        </label>
+    </div>
+    <div>
+        <p>Favorites</p>
+        <label>Favorite movie:
+            <input type="text" name="food">
+        </label><br>
+        <label>Favorite quote:
+            <input type="text" name="quote" placeholder="Write your favorite quote">
+        </label><br>
+        <label>Favorite food:
+            <select name="food">
+                <option value="" selected disabled></option>
+                <option>Hamburger</option>
+                <option>Hot Dog</option>
+                <option>Pizza</option>
+            </select>
+        </label><br>
+        <label>Choose a flavor:
+            <input type="text" name="flavor">
+        </label>
+    </div>
+    <div>
+        <p>Security & Contact</p>
+        <label>Password*:
+            <input type="password" required>
+        </label><br>
+        <label>Email address*:
+            <input type="email" required placeholder="Enter your email address">
+        </label><br>
+        <label>Favorite site:
+            <input type="url" placeholder="Enter the URL of your favorite site">
+        </label>
+    </div>
+    <div>
+        <p>Additional Information</p>
+        <label>Favorite number (1-10):
+            <input type="number" min="1" max="10">
+        </label><br>
+        <label>Favorite number (11-1000):
+            <input type="range" min="11" max="1000">
+        </label><br>
+        <label>When were you born?:
+            <input type="date">
+        </label><br>
+        <label>Belgium zip-code reg number*:
+            <input type="number" required placeholder="9999">
+        </label>
+    </div>
+    <div>
+        <p>Miscellaneous</p>
+        <label>Search for something:
+            <input type="search">
+        </label><br>
+        <label>What is your favorite color?:
+            <input type="color">
+        </label><br>
+        <label>Upload a file:
+            <input type="file">
+        </label>
+    </div>
+    <input type="submit" value="Submit">
+</form>
+<script src="scripts/script.js"></script>
+</body>
+</html>
