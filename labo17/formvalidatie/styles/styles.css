@@ -1,0 +1,12 @@
+.errorMessage {
+	color: red;
+	margin-left: 10px;
+}
+
+input.invalid {
+	border: solid 1px red;
+}
+
+.line {
+	margin-bottom: 10px;
+}
