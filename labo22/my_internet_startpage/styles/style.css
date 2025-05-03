@@ -1,0 +1,21 @@
+body {
+    padding: 10px;
+}
+
+#zoekopdracht {
+    width: 95%;
+    height: 30px;
+}
+
+button {
+    width: 95%;
+    height: 30px;
+    color: white;
+    background-color: green;
+    border: none;
+}
+
+button:hover {
+    background-color: darkgreen;
+    cursor: pointer;
+}
